@@ -10,6 +10,7 @@ import { ReactNode } from 'react';
 import { Fira_Code } from 'next/font/google';
 const FIRA_CODE = Fira_Code({
 	weight: "600",
+	subsets: ['latin'],
 });
 /**
  * Footer component

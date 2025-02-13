@@ -14,6 +14,7 @@ import Button from "../Button";
 import { Fira_Code } from 'next/font/google';
 const FIRA_CODE = Fira_Code({
 	weight: "600",
+	subsets: ['latin'],
 });
 /**
  * 
@@ -41,6 +42,7 @@ const Hero: FC = () => {
 					wrapper={HeroContent.intro.wrapper}
 					repeat={Infinity}
 				/> */}
+				{/* Header */}
 				<section>
 					<h1 className={`${styles.header} font-bold`}>
 						{HeroContent.header.name}
@@ -49,25 +51,28 @@ const Hero: FC = () => {
 						{HeroContent.header.usp}
 					</h1>
 				</section>
+				{/* Description */}
 				<section>
 					<p className={`${styles.primaryBright} subtitle ${Spacing(["verticalLrg"])} ${FIRA_CODE.className}`}>
 						{HeroContent.paragraph}
 					</p>
 				</section>
-				<section>
+				{/* Buttons */}
+				<section className="">
 					{/* Contact Btn */}
 					<Button
 						// className={`button ${buttonStyles.primary}`}
 						type="primary"
 						href={HeroContent.buttons.primary.url}
 						text={HeroContent.buttons.primary.title}
+						className="mr-4"
 					/>
 					{/* LinkedIn Btn */}
 					<Button
 						href={HeroContent.buttons.secondary.url}
 						type="secondary"
 						text={HeroContent.buttons.secondary.title}
-						className="ml-4"
+						className="mt-2 sm:mt-0"
 					/>
 				</section>
 			</Container>
