@@ -6,6 +6,11 @@ import Link from 'next/link';
 // -- components
 import Container from '@/components/Structure/container';
 import { ReactNode } from 'react';
+// -- fonts
+import { Fira_Code } from 'next/font/google';
+const FIRA_CODE = Fira_Code({
+	weight: "600",
+});
 /**
  * Footer component
  * @returns 
@@ -34,13 +39,13 @@ const Footer = () => {
 				<section className={styles.sections}>
 					{/*  */}
 					<ul className={styles.thanks} style={{ maxWidth: '80%' }}>
-						<li><h4 className='uppercase font-bold tracking-widest text-sm text-gray-400'>Acknowledgments</h4></li>
+						<li><h4 className='uppercase font-bold tracking-widest text-sm text-gray-400'>References</h4></li>
 						{
 							FooterContent.acknowledgments.map(({ person, link, note }, index) => {
 								return (
 									<li key={index}>
 										<Link href={link} rel="noreferrer" target="_blank">
-											<span className='text-gray-300 font-bold'>
+											<span className={`${FIRA_CODE.className} text-gray-300 font-bold`}>
 												{person} <i className="fa-solid fa-arrow-up-right-from-square"></i>
 											</span>
 										</Link>

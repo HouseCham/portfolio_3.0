@@ -15,7 +15,8 @@ const Navbar = () => {
 	
 	return (
 		<nav id="portfolio-navbar" className={styles.container}>
-			<ul className={styles.menu}>
+			<ul className={`${styles.menu} pr-5`}>
+				{/* Menu Header */}
 				<li className={styles.menuHeader}>
 					<Link className={styles.logo} href="/"  >
 						{settings.name}
@@ -27,6 +28,7 @@ const Navbar = () => {
 						</div>
 					</button>
 				</li>
+				{/* Menu Content */}
 				<li className={styles.menuContent}>
 					<ul>
 						{

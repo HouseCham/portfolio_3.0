@@ -1,5 +1,10 @@
 import Link from "next/link";
 import { FC } from "react";
+// -- fonts
+import { Fira_Code } from 'next/font/google';
+const FIRA_CODE = Fira_Code({
+    weight: "600",
+});
 /**
  * ButtonProps is an interface that defines the props
  */
@@ -31,16 +36,17 @@ const Button: FC<ButtonProps> = ({ text, onClick, className = "", type = "primar
         return (
             <Link 
                 href={href} 
-                className={`${DEFAULT_STYLES} ${buttonStyle} ${className}`}
+                className={`${DEFAULT_STYLES} ${buttonStyle} ${FIRA_CODE.className} ${className}`}
+                style={{ border: type === "primary" ? "none" : "1px solid #bfbfbf" }}
             >
-                {text}
+                {text} <span className="ml-1">{type === "primary" ? null : <i className="fa-solid fa-up-right-from-square"></i>}</span>
             </Link>
         )
     };
     return (
         <button
             type={isSubmit ? "submit" : "button"} 
-            className={`${DEFAULT_STYLES} ${buttonStyle} ${className}`}
+            className={`${DEFAULT_STYLES} ${buttonStyle} ${FIRA_CODE.className} ${className}`}
             onClick={onClick}
         >
             {text}

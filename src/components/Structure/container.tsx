@@ -8,7 +8,7 @@ import { FC } from 'react';
  */
 interface ContainerProps {
 	className?: string;
-	spacing?: string[];
+	spacing?: string[] | string;
 	children: React.ReactNode;
 };
 /**
