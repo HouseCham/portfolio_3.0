@@ -1,0 +1,47 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "Bryan Rodriguez - Senior QA Engineer",
+			"link": "https://www.linkedin.com/in/bryan-rodriguez-32a9a8211/",
+			"note": "Ramses is a highly qualified person for any company, I have worked with him for just over 1 year and I have been surprised by his ability to improve day by day. He has a magnificent quality to develop, analyze and implement new functionalities within our projects, without a doubt."
+		},
+		{ 
+			"person": "Marcelo Neyra Naya - Biomedical Engineer | Innovation Broker",
+			"link": "https://www.linkedin.com/in/marcelo-neyra",
+			"note": "I highly recommend Ramses for any web design project. He recently created a website for our company, and the results exceeded expectations. Ramses demonstrated an understanding of our brand, translating our ideas into a visually appealing site. He was professional, responsive to feedback, and met all deadlines."
+		},
+		{ 
+			"person": "Eliecer Garcia Romo - Software developer | Frontent | Mobile development.",
+			"link": "https://www.linkedin.com/in/eliecer-garcia-b1a3ba1a9/",
+			"note": "Excellent colleague, whenever he joined, he would say that he only did backend, but he quickly learned frontend using TypeScript and Redux. When we have to assign high-priority tasks, we know he can handle them."
+		},
+		{
+			"person": "Aldair Villarruel Contreras - Frontend Developer",
+			"link": "https://www.linkedin.com/in/aldairvillarruel/",
+			"note": "I have worked with Ramsés for a little over a year, and I can say that he is extremely dedicated to delivering impeccable work, always open to learning and improving. His knowledge has been crucial to the development of the projects we have worked on."
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "YWFT Creative Marketplace",
+			"link": "https://www.youworkforthem.com/?aff=1115",
+			"note": "Best in class creative assets."
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.linkedin.com/in/rams%C3%A9s-ram%C3%ADrez-vallejo-701367229/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/HouseCham",
+			"icon": "github"
+		},
+		{
+			"url": "https://www.upwork.com/freelancers/~015fc98b26fe9280fa",
+			"icon": "upwork"
+		}
+	]
+}
