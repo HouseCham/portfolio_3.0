@@ -9,7 +9,7 @@ import { FC } from "react";
 interface IBadgesProps {
     list: Stack[];
     block: string;
-    color: boolean;
+    color?: boolean;
     inView?: boolean;
     fullContainer?: string;
 }
@@ -19,9 +19,10 @@ interface IBadgesProps {
  * @param {string} block
  * @param {boolean} color
  * @param {string} fullContainer
+ * @param {string} iconClass
  * @returns 
  */
-const Badges: FC<IBadgesProps> = ({ list, block, color, inView, fullContainer = "" }) => {
+const Badges: FC<IBadgesProps> = ({ list, block, color = false, inView, fullContainer = "" }) => {
     return (
         <ul
             className={`${badges.list} ${badges[block]} ${badges[fullContainer]}`}

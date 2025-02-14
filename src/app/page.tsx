@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero/Hero";
-// -- dynamic imports
 import dynamic from "next/dynamic";
+const About = dynamic(() => import("@/components/Sections/about"));
 const FeaturedProjects = dynamic(() => import("@/components/Sections/projects/featured"));
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <div>
       <Hero />
       <FeaturedProjects />
+      <About />
     </div>
   );
 }

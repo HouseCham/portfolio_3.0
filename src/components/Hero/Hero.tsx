@@ -24,7 +24,7 @@ const FIRA_CODE = Fira_Code({
  */
 const Hero: FC = () => {
 	return (
-		<Section className={`${styles.section}`}>
+		<Section id="main-hero" className={`${styles.section}`}>
 			<Container spacing={'VerticalXXXL'}>
 				{/* PreHeader */}
 				<TypeAnimation className={`${styles.preHeader}`}

@@ -52,7 +52,6 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 								list={stack}
 								block="stack"
 								color={false}
-								inView={inView}
 							/>
 						</div>
 						<div className={styles.viewProject}>

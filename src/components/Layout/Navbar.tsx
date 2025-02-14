@@ -12,13 +12,31 @@ const Navbar = () => {
 	const toggleMenu = () => {
 		setMenuState(!menuState);
 	};
+
+	// Function to handle smooth scrolling
+	const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+		// If the link is an anchor link (e.g., "#about-me")
+		if (href.startsWith("#")) {
+			e.preventDefault(); // Prevent the default jump
+			const section = document.querySelector(href);
+			if (section) {
+				section.scrollIntoView({ behavior: "smooth" });
+			}
+			setMenuState(false); // Close the mobile menu if needed
+		}
+	};
 	
 	return (
 		<nav id="portfolio-navbar" className={styles.container}>
 			<ul className={`${styles.menu} pr-5`}>
 				{/* Menu Header */}
 				<li className={styles.menuHeader}>
-					<Link className={styles.logo} href="/"  >
+					<Link 
+						className={styles.logo} 
+						target='_self' 
+						href="#main-hero" 
+						onClick={(e) => handleSmoothScroll(e, "#main-hero")}  
+					>
 						{settings.name}
 					</Link>
 					<button onClick={toggleMenu} className={styles.mobileToggle} data-open={menuState}>
@@ -35,7 +53,13 @@ const Navbar = () => {
 							NavbarContent.map(({ url, title, target }, index) => {
 								return (
 									<li key={index}>
-										<Link href={url} target={target}>{title}</Link>
+										<Link 
+											href={url} 
+											target={target}
+											onClick={(e) => handleSmoothScroll(e, url)}
+										>
+											{title}
+										</Link>
 									</li>
 								)
 							})

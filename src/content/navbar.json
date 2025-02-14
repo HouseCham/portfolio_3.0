@@ -5,7 +5,7 @@
 		"target": "_self"
 	},
 	{
-		"url": "/",
+		"url": "#about-me",
 		"title": "About Me",
 		"target": "_self"
 	},
