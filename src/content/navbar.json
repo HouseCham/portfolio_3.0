@@ -1,18 +1,22 @@
 [
 	{
 		"url": "/",
-		"title": "About Me"
+		"title": "About Me",
+		"target": "_self"
 	},
 	{
 		"url": "/experience",
-		"title": "Experience"
+		"title": "Experience",
+		"target": "_self"
 	},
 	{
 		"url": "/projects",
-		"title": "Products"
+		"title": "Products",
+		"target": "_self"
 	},
 	{
-		"url": "/ramsesramva.pdf",
-		"title": "Resume"
+		"url": "/cv/ramsesramva_cv.pdf",
+		"title": "Resume",
+		"target": "_blank"
 	}
 ]

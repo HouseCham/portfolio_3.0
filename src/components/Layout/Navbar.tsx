@@ -23,8 +23,8 @@ const Navbar = () => {
 					</Link>
 					<button onClick={toggleMenu} className={styles.mobileToggle} data-open={menuState}>
 						<div>
-							<span></span>
-							<span></span>
+							<span>holis</span>
+							<span>quiubo</span>
 						</div>
 					</button>
 				</li>
@@ -32,10 +32,10 @@ const Navbar = () => {
 				<li className={styles.menuContent}>
 					<ul>
 						{
-							NavbarContent.map(({ url, title }, index) => {
+							NavbarContent.map(({ url, title, target }, index) => {
 								return (
 									<li key={index}>
-										<Link href={url}>{title}</Link>
+										<Link href={url} target={target}>{title}</Link>
 									</li>
 								)
 							})

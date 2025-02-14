@@ -1,7 +1,10 @@
-import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
-// import Footer from "@/components/Layout/Footer";
-
+// -- dynamic import
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("@/components/Layout/Navbar"));
+/**
+ * LayoutProps interface
+ */
 interface LayoutProps {
 	children: React.ReactNode;
 };
