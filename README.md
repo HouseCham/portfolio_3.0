@@ -8,6 +8,9 @@ This project is a personal web portfolio based on the open-source template by [a
 - **Refactored files from `.jsx` to `.tsx`** to leverage TypeScript's static typing benefits.
 - **Implemented Tailwind CSS** for more dynamic and efficient styling.
 
+### New Libraries
+- **Animation: `animate.css`**
+
 ## Acknowledgments
 
 This project is built upon the amazing work done by atlamors. You can find the original repository [here](https://github.com/atlamors/portfolio).

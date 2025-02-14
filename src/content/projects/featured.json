@@ -1,0 +1,82 @@
+[
+	{
+	  "project": "Dipinto.mx",
+	  "url": "https://dipinto.mx",
+	  "repo": "Private",
+	  "descriptionTitle": "Full-stack E-commerce Web Application",
+	  "description": "Built with a scalable and maintainable architecture using Golang, PostgreSQL, and Next.js. Features include JWT authentication, MercadoPago payment integration, and a responsive UI.",
+	  "imageOptions": [],
+	  "images": [
+		{
+		  "key": "dipinto-mock",
+		  "hover": "right",
+		  "h": "1200",
+		  "w": "556",
+		  "url": "/img/dipinto/mock1.png"
+		},
+		{
+		  "key": "dipinto-mock",
+		  "hover": "left",
+		  "h": "1200",
+		  "w": "556",
+		  "url": "/img/dipinto/mock2.png"
+		}
+	  ],
+	  "stack": [
+		{ "key": "fa-brands fa-golang", "name": "Golang", "type": "devicon" },
+		{ "key": "fa-brands fa-react", "name": "React", "type": "devicon" },
+		{ "key": "fa-brands fa-nextjs", "name": "Next.js", "type": "devicon" },
+		{ "key": "fa-brands fa-node-js", "name": "Node.js", "type": "devicon" },
+		{ "key": "fa-brands fa-docker", "name": "Docker", "type": "devicon" },
+		{ "key": "fa-brands fa-css3", "name": "CSS3", "type": "devicon" }
+	  ]
+	},
+	{
+	  "project": "POS System (Apymsa)",
+	  "url": "https://apymsa.com",
+	  "repo": "Private",
+	  "descriptionTitle": "Full-stack Point of Sale (POS) System",
+	  "description": "Developed a scalable POS system with Next.js frontend and .NET microservices backend. Features include product, category, and sales management with a responsive UI.",
+	  "imageOptions": [],
+	  "images": [
+		{
+		  "key": "pos-mock",
+		  "hover": "right",
+		  "h": "1200",
+		  "w": "556",
+		  "url": "/img/pos/mock1.png"
+		}
+	  ],
+	  "stack": [
+		{ "key": "fa-brands fa-nextjs", "name": "Next.js", "type": "devicon" },
+		{ "key": "fa-brands fa-redux", "name": "Redux", "type": "devicon" },
+		{ "key": "fa-brands fa-aws", "name": "AWS", "type": "devicon" },
+		{ "key": "fa-brands fa-dot-net", "name": ".NET", "type": "devicon" },
+		{ "key": "fa-brands fa-docker", "name": "Docker", "type": "devicon" }
+	  ]
+	},
+	{
+	  "project": "Corporate Landing Page",
+	  "url": "https://ramsesramva.com",
+	  "repo": "Private",
+	  "descriptionTitle": "Company Landing Page",
+	  "description": "Developed a fully responsive landing page using Next.js, Tailwind CSS, and Ant Design. The project achieved optimized performance with SSR and static generation.",
+	  "imageOptions": [],
+	  "images": [
+		{
+		  "key": "landing-mock",
+		  "hover": "left",
+		  "h": "1200",
+		  "w": "556",
+		  "url": "/img/landing/mock1.png"
+		}
+	  ],
+	  "stack": [
+		{ "key": "fa-brands fa-nextjs", "name": "Next.js", "type": "devicon" },
+		{ "key": "fa-brands fa-tailwind", "name": "Tailwind CSS", "type": "devicon" },
+		{ "key": "fa-brands fa-html5", "name": "HTML5", "type": "devicon" },
+		{ "key": "fa-brands fa-css3", "name": "CSS3", "type": "devicon" }
+	  ]
+	}
+  ]
+  
