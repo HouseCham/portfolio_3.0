@@ -9,19 +9,16 @@
 		"deleteDelay": 3000,
 		"restartDelay": 12000
 	},
-
 	"header": {
 		"name": "Ramsés Ramírez Vallejo.",
 		"usp": "Software Engineer."
 	},
-
-	"paragraph": "I'm a passionate and ambitious Software Developer fueled by a perpetual thirst for growth, both personally and professionally.",
-
+	"paragraph": "From backend architecture to intuitive front-end interfaces. Solving complex problems with precision and creativity.",
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
 			"url": "mailto:ramsesramirezvallejo@gmail.com",
-			"leaveSite": false
+			"leaveSite": "true"
 		},
 		"secondary": {
 			"title": "LinkedIn",

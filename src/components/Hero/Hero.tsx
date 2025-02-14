@@ -1,3 +1,4 @@
+"use client";
 import { FC } from "react";
 // -- static information
 import HeroContent from "@/content/hero.json";
@@ -7,9 +8,10 @@ import styles from "@/styles/sections/index/hero.module.scss";
 import Container from "@/components/Structure/container";
 import Section from "@/components/Structure/section";
 import HeroBg from "@/components/Hero/HeroBg";
+import { TypeAnimation } from 'react-type-animation';
 // -- utils
 import Spacing from "@/utils/spacing.util";
-import Button from "../Button";
+import Button from "@/components/Button";
 // -- fonts
 import { Fira_Code } from 'next/font/google';
 const FIRA_CODE = Fira_Code({
@@ -21,27 +23,29 @@ const FIRA_CODE = Fira_Code({
  * @returns 
  */
 const Hero: FC = () => {
-	// const [typingStatus, setTypingStatus] = useState<string>('Initializing');
 	return (
 		<Section className={`${styles.section}`}>
 			<Container spacing={'VerticalXXXL'}>
-				{/* <TypeAnimation className={`${styles.preHeader}`}
+				{/* PreHeader */}
+				<TypeAnimation className={`${styles.preHeader}`}
 					sequence={[
 						HeroContent.intro.startDelay,
-						() => { setTypingStatus('typing') },
 						HeroContent.intro.start,
-						() => {	setTypingStatus('typed') },
 						HeroContent.intro.deleteDelay,
-						() => {	setTypingStatus('deleting') },
 						HeroContent.intro.end,
-						() => {	setTypingStatus('deleted') },
 						HeroContent.intro.restartDelay,
 					]}
-					speed={HeroContent.intro.speed}
-					deletionSpeed={HeroContent.intro.deletionSpeed}
-					wrapper={HeroContent.intro.wrapper}
+					speed={{
+						type: 'keyStrokeDelayInMs',
+						value: HeroContent.intro.speed
+					}}
+					deletionSpeed={{
+						type: 'keyStrokeDelayInMs',
+						value: HeroContent.intro.deletionSpeed
+					}}
+					wrapper={'h2'}
 					repeat={Infinity}
-				/> */}
+				/>
 				{/* Header */}
 				<section>
 					<h1 className={`${styles.header} font-bold`}>
