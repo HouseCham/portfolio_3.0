@@ -10,16 +10,9 @@
 		{
 		  "key": "dipinto-mock",
 		  "hover": "right",
-		  "h": "1200",
-		  "w": "556",
-		  "url": "/img/dipinto/mock1.png"
-		},
-		{
-		  "key": "dipinto-mock",
-		  "hover": "left",
-		  "h": "1200",
-		  "w": "556",
-		  "url": "/img/dipinto/mock2.png"
+		  "h": "1920",
+		  "w": "1080",
+		  "url": "https://f005.backblazeb2.com/file/dipinto-img-bucket/chamito/projects/dipinto-bg-03.png"
 		}
 	  ],
 	  "stack": [
@@ -33,7 +26,7 @@
 	},
 	{
 	  "project": "POS System (Apymsa)",
-	  "url": "https://apymsa.com",
+	  "url": "",
 	  "repo": "Private",
 	  "descriptionTitle": "Full-stack Point of Sale (POS) System",
 	  "description": "Developed a scalable POS system with Next.js frontend and .NET microservices backend. Features include product, category, and sales management with a responsive UI.",
@@ -42,9 +35,9 @@
 		{
 		  "key": "pos-mock",
 		  "hover": "right",
-		  "h": "1200",
-		  "w": "556",
-		  "url": "/img/pos/mock1.png"
+		  "h": "720",
+		  "w": "960",
+		  "url": "https://f005.backblazeb2.com/file/dipinto-img-bucket/chamito/projects/dashboard.png"
 		}
 	  ],
 	  "stack": [
@@ -56,8 +49,8 @@
 	  ]
 	},
 	{
-	  "project": "Corporate Landing Page",
-	  "url": "https://ramsesramva.com",
+	  "project": "YEngineering Landing Page",
+	  "url": "https://yengineering.io/",
 	  "repo": "Private",
 	  "descriptionTitle": "Company Landing Page",
 	  "description": "Developed a fully responsive landing page using Next.js, Tailwind CSS, and Ant Design. The project achieved optimized performance with SSR and static generation.",
@@ -66,9 +59,9 @@
 		{
 		  "key": "landing-mock",
 		  "hover": "left",
-		  "h": "1200",
-		  "w": "556",
-		  "url": "/img/landing/mock1.png"
+		  "h": "720",
+		  "w": "960",
+		  "url": "https://f005.backblazeb2.com/file/dipinto-img-bucket/chamito/projects/yengineering-mockup.png"
 		}
 	  ],
 	  "stack": [

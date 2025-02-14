@@ -6,6 +6,7 @@ import { FC } from 'react';
  * Section component props
  */
 interface SectionProps {
+	id?: string;
 	className?: string;
 	children: React.ReactNode;
 };
@@ -16,9 +17,9 @@ interface SectionProps {
  * @param {jsx} 	children children elements
  * @returns {jsx}	<Section />
  */
-const Section:FC<SectionProps> = ({ className = "", children }) => {
+const Section:FC<SectionProps> = ({ id, className = "", children }) => {
 	return (
-		<div className={`${sections.default} ${className}`}>
+		<div id={id} className={`${sections.default} ${className}`}>
 			{children}
 		</div>
 	);

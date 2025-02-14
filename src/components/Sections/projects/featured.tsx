@@ -11,7 +11,7 @@ import FeaturedProject from '@/components/Blocks/Projects/featuredProject';
 
 const FeaturedProjects = () => {
 	return (
-		<Section className={styles.hasBg}>
+		<Section className={styles.hasBg} id="featured-products">
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
 					title="Featured Projects"

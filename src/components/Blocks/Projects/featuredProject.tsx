@@ -26,7 +26,7 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 	const [isHover, setIsHover] = useState(false);
 
 	const { ref, inView } = useInView({
-		"threshold": 0.75,
+		"threshold": 0.3,
 		"triggerOnce": true
 	})
 
@@ -66,10 +66,12 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 						{images.map(({ key, url, hover, h, w }, index) => {
 							return (
 								<div key={`${index}-${key}`}>
-									<div className={inView ? "animate__animated animate__bounceInUp" : ""}>
+									<div className={inView ? "animate__animated animate__bounceInUp" : "hidden"}>
 										<Image 
+											priority
 											src={url} 
-											width={0}
+											width={Number(w)}
+											height={Number(h)}
 											alt={project}
 											className={`${isHover ? "" : ""} mx-auto invisible sm:visible sm:w-96 md:w-8/12`}
 											style={{ "maxWidth": "450px" }} 

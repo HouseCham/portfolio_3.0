@@ -31,7 +31,7 @@ const Badges: FC<IBadgesProps> = ({ list, block, color, inView, fullContainer = 
                     return (
                         <li
                             key={`badge-li-${index}-${name}`}
-                            className={`animate__animated animate__zoomIn animate__slow ${badges.item}`}
+                            className={`animate__animated animate__zoomIn ${badges.item}`}
                         >
                             {IconModule(key, color)}
                             <span className={badges.title}>{name}</span>
