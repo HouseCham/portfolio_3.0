@@ -37,7 +37,7 @@ interface BadgesBlockProps {
  */
 const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, block = "", iconKey, headerIcon, containerClass }) => {
 	const { ref, inView } = useInView({
-		"threshold": 0.3,
+		"threshold": 0.8,
 		"triggerOnce": true
 	})
 	return (

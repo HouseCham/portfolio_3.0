@@ -26,8 +26,8 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 	const [isHover, setIsHover] = useState(false);
 
 	const { ref, inView } = useInView({
-		"threshold": 0.3,
-		"triggerOnce": true
+		"threshold": 0.6,
+		"triggerOnce": false
 	})
 
 	return (
@@ -62,10 +62,10 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 
 				<div className={styles.imageContainer}>
 					<span className={`${styles.imageAnimationContainer}`}>
-						{images.map(({ key, url, hover, h, w }, index) => {
+						{images.map(({ key, url, h, w }, index) => {
 							return (
 								<div key={`${index}-${key}`}>
-									<div className={inView ? "animate__animated animate__bounceInUp" : "hidden"}>
+									<div className={`animate__animated ${inView ? "animate__bounceInUp" : "animate__bounceOutDown"}`}>
 										<Image 
 											priority
 											src={url} 

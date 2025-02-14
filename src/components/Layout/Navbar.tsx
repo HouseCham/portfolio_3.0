@@ -41,8 +41,8 @@ const Navbar = () => {
 					</Link>
 					<button onClick={toggleMenu} className={styles.mobileToggle} data-open={menuState}>
 						<div>
-							<span>holis</span>
-							<span>quiubo</span>
+							<span></span>
+							<span></span>
 						</div>
 					</button>
 				</li>
