@@ -1,0 +1,207 @@
+{
+    "title": "Experience",
+    "pretitle": "My",
+    "subtitle": "through the years",
+    "experiences": [
+        {
+            "company": "APYMSA",
+            "companyUrl": "https://www.apymsa.com.mx/",
+            "position": "Full Stack Developer",
+            "date": "Jul 2023 - Present",
+            "description": [
+                "Spearheaded the development of a RESTful ASP.NET Core microservices backend, improving system scalability and reducing response times.",
+                "Optimized SQL Server database performance through strategic indexing and query optimization, achieving a decrease in average query response times.",
+                "Collaborated with cross-functional teams to design and implement a responsive web application using Next.js, enhancing user experience and engagement across all devices."
+            ],
+            "codeSkills": [
+                {
+                    "name": "TypeScript",
+                    "iconKey": "typescript"
+                },
+                {
+                    "name": "React",
+                    "iconKey": "react"
+                },
+                {
+                    "name": "Next.js",
+                    "iconKey": "next"
+                },
+                {
+                    "name": "ASP.NET Core",
+                    "iconKey": "asp"
+                },
+                {
+                    "name": "C#",
+                    "iconKey": "csharp"
+                },
+                {
+                    "name": "SQL Server",
+                    "iconKey": "sql"
+                },
+                {
+                    "name": "Microservices",
+                    "iconKey": "microservices"
+                },
+                {
+                    "name": "Entity Framework",
+                    "iconKey": "ef"
+                }
+            ]
+        },
+        {
+            "company": "Global Hitss",
+            "companyUrl": "https://globalhitss.com/",
+            "position": ".Net Developer",
+            "date": "Dec 2022 - Jul 2023",
+            "description": [
+                "Developed a high-performance web application to enhance call center operations for Grupo Banorte, resulting in an increase in efficiency and user satisfaction.",
+                "Managed Oracle databases, executing complex queries and data operations that facilitated real-time data analysis for decision-making.",
+                "Utilized ASP.NET Webservices for backend management, ensuring secure and efficient data handling and application integration."
+            ],
+            "codeSkills": [
+                {
+                    "name": ".NET Framework",
+                    "iconKey": "dotnet"
+                },
+                {
+                    "name": "ASP.NET",
+                    "iconKey": "asp"
+                },
+                {
+                    "name": "Oracle",
+                    "iconKey": "oracle"
+                },
+                {
+                    "name": "SOAP",
+                    "iconKey": "soap"
+                },
+                {
+                    "name": "Kony Visualizer",
+                    "iconKey": "kony"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconKey": "js"
+                },
+                {
+                    "name": "CSS",
+                    "iconKey": "css"
+                },
+                {
+                    "name": "HTML",
+                    "iconKey": "html"
+                }
+            ]
+        },
+        {
+            "company": "SMART TARGET",
+            "companyUrl": "https://smarttarget.com.mx/",
+            "position": ".Net Developer",
+            "date": "Jul 2022 - Dec 2022",
+            "description": [
+                "Designed and developed ecommerce web applications using Razor Pages, resulting in a user-friendly interface that increased customer engagement.",
+                "Maintained MySQL databases, executing efficient CRUD operations that streamlined data management processes.",
+                "Implemented responsive design strategies using Bootstrap and jQuery, ensuring seamless functionality across various devices."
+            ],
+            "codeSkills": [
+                {
+                    "name": "Razor Pages",
+                    "iconKey": "razor"
+                },
+                {
+                    "name": "MySQL",
+                    "iconKey": "sql"
+                },
+                {
+                    "name": "MVC",
+                    "iconKey": "mvc"
+                },
+                {
+                    "name": "HTML",
+                    "iconKey": "html"
+                },
+                {
+                    "name": "CSS",
+                    "iconKey": "css"
+                },
+                {
+                    "name": "JS",
+                    "iconKey": "js"
+                },
+                {
+                    "name": "Bootstrap",
+                    "iconKey": "bootstrap"
+                },
+                {
+                    "name": "AJAX",
+                    "iconKey": "ajax"
+                },
+                {
+                    "name": "jQuery",
+                    "iconKey": "jquery"
+                },
+                {
+                    "name": "Dapper",
+                    "iconKey": "dapper"
+                },
+                {
+                    "name": "Entity Framework",
+                    "iconKey": "ef"
+                }
+            ]
+        },
+        {
+            "company": "Freelance",
+            "companyUrl": "",
+            "position": "Freelance Developer",
+            "date": "Nov 2021 - Jul 2022",
+            "description": [
+                "Developed web applications using ASP.NET MVC and relational databases, delivering high-quality solutions that meet client requirements.",
+                "Worked with MySQL, SQL Server, and PostgreSQL databases to ensure data integrity and optimal performance.",
+                "Utilized SCSS and SASS for advanced styling, enhancing the visual appeal and responsiveness of web applications."
+            ],
+            "codeSkills": [
+                {
+                    "name": "ASP.NET MVC",
+                    "keyIcon": "asp"
+                },
+                {
+                    "name": "MySQL",
+                    "keyIcon": "sql"
+                },
+                {
+                    "name": "SQL Server",
+                    "keyIcon": "sql"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "keyIcon": "sql"
+                },
+                {
+                    "name": "SCSS",
+                    "keyIcon": "css"
+                },
+                {
+                    "name": "SASS",
+                    "keyIcon": "sass"
+                },
+                {
+                    "name": "JavaScript",
+                    "keyIcon": "js"
+                },
+                {
+                    "name": "jQuery",
+                    "keyIcon": "jquery"
+                },
+                {
+                    "name": "HTML",
+                    "keyIcon": "html"
+                },
+                {
+                    "name": "CSS",
+                    "keyIcon": "css"
+                }
+            ]
+        }
+    ]
+}

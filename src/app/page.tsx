@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience/experience";
 import Hero from "@/components/Hero/Hero";
 import dynamic from "next/dynamic";
 const About = dynamic(() => import("@/components/Sections/about"));
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <FeaturedProjects />
       <About />
+      <Experience />
     </div>
   );
 }
