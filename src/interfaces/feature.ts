@@ -25,5 +25,5 @@ export interface Image {
 export interface Stack {
     key: string
     name: string
-    type: string
+    type?: string
 }

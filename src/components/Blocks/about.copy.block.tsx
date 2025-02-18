@@ -1,15 +1,16 @@
 import { FC } from "react";
 import { Inter } from 'next/font/google';
 const INTER = Inter({
-    subsets: ['latin'],
+	subsets: ['latin'],
 });
 
 interface CopyBlockProps {
-    containerClass?: string;
-    iconClass?: string;
-    iconKey: string;
-    title: string;
-    copy: string;
+	containerClass?: string;
+	iconClass?: string;
+	iconKey: string;
+	title: string;
+	copy?: string;
+	children?: React.ReactNode;
 };
 /**
  * About section component block that contains the written copy
@@ -20,19 +21,22 @@ interface CopyBlockProps {
  * @param {string} 	copy written content
  * @returns {jsx} <CopyBlock />
  */
-const CopyBlock: FC<CopyBlockProps> = ({ containerClass = "", iconClass = "", iconKey, title, copy }) => {
+const CopyBlock: FC<CopyBlockProps> = ({ containerClass = "", iconClass = "", iconKey, title, copy, children }) => {
 	return (
-		<>
 		<div className={containerClass}>
 			<span className={iconClass}>
 				<i className={`${iconKey} text-2xl`}></i>
 			</span>
 			<h3 className={`${INTER.className} text-lg text-primary font-semibold`}>{title}</h3>
-			<p className={`${INTER.className} text-primaryDim`}>
-				{copy}
-			</p>
+			{
+				copy && copy.length > 0 && (
+					<p className={`${INTER.className} text-primaryDim`}>
+						{copy}
+					</p>
+				)
+			}
+			{children}
 		</div>
-		</>
 	)
 };
 

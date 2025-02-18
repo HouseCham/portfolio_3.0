@@ -17,13 +17,14 @@ const INTER = Inter({
  */
 interface BadgesBlockProps {
 	title: string;
-	copy?: string;
 	list: Stack[];
 	fullContainer?: string;
-	block?: string;
 	iconKey: string;
 	headerIcon: string;
 	containerClass: string;
+	block?: string;
+	copy?: string;
+	children?: React.ReactNode;
 };
 /**
  * Functional component for displaying a block of badges or skills
@@ -36,7 +37,7 @@ interface BadgesBlockProps {
  * @param {string}	headerIcon request props [ iconType, iconKey ]
  * @returns 
  */
-const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, block = "", iconKey, headerIcon, containerClass }) => {
+const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, block = "", iconKey, headerIcon, containerClass, children }) => {
 	const { ref, inView } = useInView({
 		"threshold": 0.8,
 		"triggerOnce": true
@@ -53,6 +54,14 @@ const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, b
 			</h3>
 			{/* Copy */}
 			{copy && <p className={`${INTER.className} text-primaryDim`}>{copy}</p>}
+			{/* Children */}
+			{
+				children && (
+					<div className='mb-8'>
+						{children}
+					</div>
+				)
+			}
 			{/* Badges | Skills */}
 			<MainMenusGradientCard
 				className="p-4"

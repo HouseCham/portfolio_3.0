@@ -1,7 +1,7 @@
 {
-    "title": "Experience",
-    "pretitle": "My",
-    "subtitle": "through the years",
+    "title": "Professional Experience",
+    "pretitle": "",
+    "subtitle": "",
     "experiences": [
         {
             "company": "APYMSA",
@@ -16,35 +16,35 @@
             "codeSkills": [
                 {
                     "name": "TypeScript",
-                    "iconKey": "typescript"
+                    "key": "typescript"
                 },
                 {
                     "name": "React",
-                    "iconKey": "react"
+                    "key": "react"
                 },
                 {
                     "name": "Next.js",
-                    "iconKey": "next"
+                    "key": "next"
                 },
                 {
                     "name": "ASP.NET Core",
-                    "iconKey": "asp"
+                    "key": "asp"
                 },
                 {
                     "name": "C#",
-                    "iconKey": "csharp"
+                    "key": "csharp"
                 },
                 {
                     "name": "SQL Server",
-                    "iconKey": "sql"
+                    "key": "sql"
                 },
                 {
                     "name": "Microservices",
-                    "iconKey": "microservices"
+                    "key": "microservices"
                 },
                 {
                     "name": "Entity Framework",
-                    "iconKey": "ef"
+                    "key": "ef"
                 }
             ]
         },
@@ -61,35 +61,35 @@
             "codeSkills": [
                 {
                     "name": ".NET Framework",
-                    "iconKey": "dotnet"
+                    "key": "dotnet"
                 },
                 {
                     "name": "ASP.NET",
-                    "iconKey": "asp"
+                    "key": "asp"
                 },
                 {
                     "name": "Oracle",
-                    "iconKey": "oracle"
+                    "key": "oracle"
                 },
                 {
                     "name": "SOAP",
-                    "iconKey": "soap"
+                    "key": "soap"
                 },
                 {
                     "name": "Kony Visualizer",
-                    "iconKey": "kony"
+                    "key": "kony"
                 },
                 {
                     "name": "JavaScript",
-                    "iconKey": "js"
+                    "key": "js"
                 },
                 {
                     "name": "CSS",
-                    "iconKey": "css"
+                    "key": "css"
                 },
                 {
                     "name": "HTML",
-                    "iconKey": "html"
+                    "key": "html"
                 }
             ]
         },
@@ -106,47 +106,47 @@
             "codeSkills": [
                 {
                     "name": "Razor Pages",
-                    "iconKey": "razor"
+                    "key": "razor"
                 },
                 {
                     "name": "MySQL",
-                    "iconKey": "sql"
+                    "key": "sql"
                 },
                 {
                     "name": "MVC",
-                    "iconKey": "mvc"
+                    "key": "mvc"
                 },
                 {
                     "name": "HTML",
-                    "iconKey": "html"
+                    "key": "html"
                 },
                 {
                     "name": "CSS",
-                    "iconKey": "css"
+                    "key": "css"
                 },
                 {
                     "name": "JS",
-                    "iconKey": "js"
+                    "key": "js"
                 },
                 {
                     "name": "Bootstrap",
-                    "iconKey": "bootstrap"
+                    "key": "bootstrap"
                 },
                 {
                     "name": "AJAX",
-                    "iconKey": "ajax"
+                    "key": "ajax"
                 },
                 {
                     "name": "jQuery",
-                    "iconKey": "jquery"
+                    "key": "jquery"
                 },
                 {
                     "name": "Dapper",
-                    "iconKey": "dapper"
+                    "key": "dapper"
                 },
                 {
                     "name": "Entity Framework",
-                    "iconKey": "ef"
+                    "key": "ef"
                 }
             ]
         },
@@ -163,43 +163,43 @@
             "codeSkills": [
                 {
                     "name": "ASP.NET MVC",
-                    "keyIcon": "asp"
+                    "key": "asp"
                 },
                 {
                     "name": "MySQL",
-                    "keyIcon": "sql"
+                    "key": "sql"
                 },
                 {
                     "name": "SQL Server",
-                    "keyIcon": "sql"
+                    "key": "sql"
                 },
                 {
                     "name": "PostgreSQL",
-                    "keyIcon": "sql"
+                    "key": "sql"
                 },
                 {
                     "name": "SCSS",
-                    "keyIcon": "css"
+                    "key": "css"
                 },
                 {
                     "name": "SASS",
-                    "keyIcon": "sass"
+                    "key": "sass"
                 },
                 {
                     "name": "JavaScript",
-                    "keyIcon": "js"
+                    "key": "js"
                 },
                 {
                     "name": "jQuery",
-                    "keyIcon": "jquery"
+                    "key": "jquery"
                 },
                 {
                     "name": "HTML",
-                    "keyIcon": "html"
+                    "key": "html"
                 },
                 {
                     "name": "CSS",
-                    "keyIcon": "css"
+                    "key": "css"
                 }
             ]
         }
