@@ -10,6 +10,7 @@ This project is a personal web portfolio based on the open-source template by [a
 
 ### New Libraries
 - **Animation: `animate.css`**
+- **Cuicui: [Watch library](https://cuicui.day/)**
 
 ## Acknowledgments
 

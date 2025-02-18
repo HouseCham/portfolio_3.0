@@ -39,7 +39,7 @@ const Footer = () => {
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={styles.sections}>
 					{/*  */}
-					<ul className={styles.thanks} style={{ maxWidth: '80%' }}>
+					<ul className={`${styles.thanks} md:max-w-4/5`}>
 						<li><h4 className='uppercase font-bold tracking-widest text-sm text-gray-400'>References</h4></li>
 						{
 							FooterContent.acknowledgments.map(({ person, link, note }, index) => {
@@ -56,22 +56,6 @@ const Footer = () => {
 							})
 						}
 					</ul>
-					{/* Links */}
-					{/* <ul className={styles.links}>
-						<li><h4>Links</h4></li>
-						{
-							FooterContent.links.map(({ person, link, note }, index) => {
-								return (
-									<li key={index}>
-										<Link href={link} rel="noreferrer" target="_blank">
-											{person} <i className="fa-solid fa-arrow-up-right-from-square"></i>
-										</Link>
-										<p>{note}</p>
-									</li>
-								)
-							})
-						}
-					</ul> */}
 					{/* Social */}
 					<ul className={styles.social}>
 						<li><h4 className='uppercase font-bold tracking-widest text-sm text-gray-400'>Social</h4></li>
