@@ -12,6 +12,10 @@ import SectionTitle from '@/components/Blocks/section.title.block';
 import CopyBlock from '@/components/Blocks/about.copy.block';
 import BadgesBlock from '@/components/Blocks/about.badges.block';
 
+// -- styles
+import { DotsPattern } from '@/components/Layout/Pattern';
+import { cn } from '@/utils';
+
 /**
  * Section: About
  * An overview of yourself.
@@ -23,11 +27,19 @@ export default function About() {
 	return (
 		<Section className={about.section} id='about-me'>
 			<Container spacing={['verticalXXXLrg']}>
+				{/* Dots Pattern layout */}
+				<DotsPattern
+					className={cn(
+						"[mask-image:radial-gradient(550px_circle_at_center,white,transparent)]",
+					)}
+				/>
+				{/* Title */}
 				<SectionTitle
 					title={ABOUT_CONTENT.title}
 					preTitle={ABOUT_CONTENT.pretitle}
 					subTitle={ABOUT_CONTENT.subtitle}
 				/>
+				{/* Content */}
 				<section className={about.content}>
 					<div className={about.image}>
 						<Image 

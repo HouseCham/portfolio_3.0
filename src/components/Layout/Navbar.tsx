@@ -5,15 +5,19 @@ import styles from '@/styles/structure/navbar.module.scss';
 // -- static information
 import NavbarContent from '@/content/navbar.json'
 import settings from '@/content/settings.json'
-import { useState } from 'react';
-
+import React, { useState } from 'react';
+/**
+ * Functional component to render the Navbar
+ * @returns {TSX.Element} Navbar
+ */
 const Navbar = () => {
 	const [menuState, setMenuState] = useState<boolean>(false);
-	const toggleMenu = () => {
-		setMenuState(!menuState);
-	};
-
-	// Function to handle smooth scrolling
+	const toggleMenu = () => {setMenuState(!menuState)};
+	/**
+	 * Function to handle smooth scrolling when clicking on a link
+	 * @param {React.MouseEvent<HTMLAnchorElement>} e 
+	 * @param {string} href
+	 */
 	const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
 		// If the link is an anchor link (e.g., "#about-me")
 		if (href.startsWith("#")) {

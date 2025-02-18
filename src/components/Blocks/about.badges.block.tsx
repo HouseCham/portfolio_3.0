@@ -8,6 +8,7 @@ import Badges from '@/components/Blocks/Projects/BadgeList';
 import { Stack } from '@/interfaces/feature';
 // -- fonts
 import { Inter } from 'next/font/google';
+import { MainMenusGradientCard } from '../Cards/GradientCard';
 const INTER = Inter({
 	subsets: ['latin'],
 });
@@ -53,12 +54,18 @@ const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, b
 			{/* Copy */}
 			{copy && <p className={`${INTER.className} text-primaryDim`}>{copy}</p>}
 			{/* Badges | Skills */}
-			<Badges 
-				list={list} 
-				block={block} 
-				inView={inView} 
-				fullContainer={fullContainer}
-			/>
+			<MainMenusGradientCard
+				className="p-4"
+				description=""
+				title=""
+			>
+				<Badges 
+					list={list} 
+					block={block} 
+					inView={inView} 
+					fullContainer={fullContainer}
+				/>
+			</MainMenusGradientCard>
 		</div>
 	)
 }

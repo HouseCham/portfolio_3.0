@@ -89,7 +89,7 @@ const Footer = () => {
 					</ul>
 				</section>
 			</Container>
-			<canvas id="gradient-canvas" className={''} data-transition-in ></canvas>
+			{/* <canvas id="gradient-canvas" className={''} data-transition-in ></canvas> */}
 		</footer>
 	)
 }
