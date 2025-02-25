@@ -1,5 +1,6 @@
 "use client";
 import { FC, useState } from 'react'
+import { useInView } from 'react-intersection-observer';
 // -- components
 import Image from 'next/image'
 // -- styles
@@ -7,7 +8,6 @@ import styles from '@/styles/sections/projects/featured.module.scss'
 // -- static information
 import { IProject } from '@/interfaces/feature'
 import Badges from '@/components/Blocks/Projects/BadgeList'
-import { useInView } from 'react-intersection-observer';
 /**
  * FeaturedProjectProps
  */
@@ -45,7 +45,9 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 							<h3 className="highlight bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent font-bold text-lg">{project}</h3><span className={styles.privateOr}><i className="fa-brands fa-github"></i>{repo}</span>
 						</div>
 						<div className={styles.description}>
-							<p><strong>{descriptionTitle}</strong> {description}</p>
+							<p>
+								<strong className='text-2xl sm:text-3xl'>{descriptionTitle}</strong> <span className='text-lg sm:text-2xl'>{description}</span>
+							</p>
 						</div>
 						<div className={styles.stackContainer}>
 							<Badges
@@ -72,7 +74,7 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({ projectInfo, index }) => {
 											width={Number(w)}
 											height={Number(h)}
 											alt={project}
-											className={`${isHover ? "" : ""} mx-auto invisible sm:visible sm:w-96 md:w-8/12`}
+											className={`${isHover ? "" : ""} mx-auto w-80 sm:w-96 md:w-8/12`}
 											style={{ "maxWidth": "450px" }} 
 										/>
 									</div>

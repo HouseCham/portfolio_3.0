@@ -28,7 +28,7 @@ interface ButtonProps {
  * @returns 
  */
 const Button: FC<ButtonProps> = ({ text, onClick, className = "", type = "primary", isSubmit = false, href }) => {
-    const DEFAULT_STYLES = "cursor-pointer text-base font-bold px-10 py-3 rounded-full border-none inline-block transition duration-700 hover:transition hover:duration-700"
+    const DEFAULT_STYLES = "cursor-pointer text-xs font-bold px-10 py-3 rounded-full border-none inline-block transition duration-700 hover:transition hover:duration-700 sm:text-base"
     const buttonStyle = type === "primary" 
     ? "text-background bg-secondary hover:bg-secondaryBright" 
     : "bg-transparent text-primary border border-solid border-primaryDark hover:text-primaryBright hover:bg-primaryDark";

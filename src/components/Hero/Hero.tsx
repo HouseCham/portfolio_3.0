@@ -76,7 +76,7 @@ const Hero: FC = () => {
 						href={HeroContent.buttons.secondary.url}
 						type="secondary"
 						text={HeroContent.buttons.secondary.title}
-						className="mt-2 sm:mt-0"
+						className=""
 					/>
 				</section>
 			</Container>
