@@ -6,7 +6,7 @@ const Experience = dynamic(() => import("@/components/Experience/experience"));
 
 export default function Home() {
   return (
-    <div>
+    <div className="md:px-10 lg:px-0">
       <Hero />
       <FeaturedProjects />
       <About />

@@ -64,7 +64,7 @@ const BadgesBlock: FC<BadgesBlockProps> = ({ title, copy, list, fullContainer, b
 			}
 			{/* Badges | Skills */}
 			<MainMenusGradientCard
-				className="p-4"
+				className="px-4 pb-8 h-fit lg:p-5"
 				description=""
 				title=""
 			>

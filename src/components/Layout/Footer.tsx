@@ -35,7 +35,7 @@ const Footer = () => {
 		};
 	};
 	return (
-		<footer className={styles.container}>
+		<footer className={`${styles.container} md:px-10 lg:px-0`}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={styles.sections}>
 					{/*  */}

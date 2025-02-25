@@ -56,7 +56,7 @@ export default function Experience() {
                                             {
                                                 experience.description && experience.description.length > 0 && experience.description.map((entry, index) => {
                                                     return (
-                                                        <li key={`experience-${index}`} className={`flex`}>
+                                                        <li key={`experience-${index}`} className={`flex mt-2`}>
                                                             <i className="fa-solid fa-chevron-right mr-3 mt-1"></i>
                                                             <p 
                                                                 key={`experience-${index}`} 

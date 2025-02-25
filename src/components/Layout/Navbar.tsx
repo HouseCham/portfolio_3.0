@@ -51,7 +51,7 @@ const Navbar = () => {
 					</button>
 				</li>
 				{/* Menu Content */}
-				<li className={styles.menuContent}>
+				<li data-open={menuState} className={styles.menuContent}>
 					<ul>
 						{
 							NavbarContent.map(({ url, title, target }, index) => {
