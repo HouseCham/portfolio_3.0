@@ -16,6 +16,8 @@ import BadgesBlock from '@/components/Blocks/about.badges.block';
 import { DotsPattern } from '@/components/Layout/Pattern';
 import { cn } from '@/utils';
 
+import UserGIF from "@/components/Images/user.gif";
+
 /**
  * Section: About
  * An overview of yourself.
@@ -41,11 +43,11 @@ export default function About() {
 				/>
 				{/* Content */}
 				<section className={about.content}>
-					<div className={about.image}>
+					<div className={`${about.image} hidden md:block`}>
 						<Image 
-							src={ABOUT_CONTENT.imageOptions.href}
-							width={Number(ABOUT_CONTENT.imageOptions.width)} 
-							height={Number(ABOUT_CONTENT.imageOptions.height)} 
+							src={UserGIF.src}
+							width={UserGIF.width} 
+							height={UserGIF.height} 
 							alt={ABOUT_CONTENT.imageOptions.alt}
 						/>
 					</div>

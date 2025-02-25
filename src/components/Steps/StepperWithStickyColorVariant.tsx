@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
  */
 export const StepWithStickyColorVariant = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="w-full max-w-2xl p-4">
+    <div className="w-full max-w-2xl p-4 md:mx-auto">
         {children}
     </div>
   );
